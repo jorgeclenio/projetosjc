@@ -1,2 +1,2 @@
 # Acesse em:
-## https://www.jorgeclenio.github.io/projetosjc/
+## https://jorgeclenio.github.io/projetosjc/
