@@ -1,0 +1,195 @@
+/*
+* @author Jorge Clênio
+* @version 0.1
+
+* Paleta de cores 
+* e82267-c693a5-edaac1-3f364f-ef6495
+*/
+
+/* ================== Borda guia ================== */
+.borda{
+	border: 2px solid red;
+}
+
+/* ==================== Layout ==================== */
+body{
+    background: url("imagens/background.jpg");
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+
+/* ============== Navbar e Dropdown =============== */
+.navbar-inverse{
+    background-color: #EF6495;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus{
+    background-color: #EDAAC1;
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus{
+    background-color: #3F364F;
+    border-radius: 24px;
+}
+
+.dropdown-menu{
+    background-color: #EF6495;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    background-color: #EDAAC1;
+    border-radius: 24px;
+}
+
+.navbar-inverse{
+    background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    background-image: none;
+    border-radius: 24px;
+}
+
+.navbar-inverse{
+    border-color: #EF6495;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus{
+    color: #FFFFFF; 
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus{
+    color: #FFFFFF; 
+    border-radius: 24px;
+}
+
+.dropdown-menu>li>a{
+    color: #FFFFFF;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret{
+    border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret{
+    border-top-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret{
+    border-bottom-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret{
+    border-bottom-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+/* ==================== Botões ==================== */
+body .btn-primary{
+    background-color: #ef6495;
+    border-color: #ef6495; 
+    color: #FFFFFF;
+}
+
+body .btn-primary:hover, 
+body .btn-primary:focus{ 
+    border-color: #ef6495; 
+    background-color: #ef6495; 
+    color: #FFFFFF;
+}
+
+body .btn-primary:active, 
+body .btn-primary:visited, 
+body .btn-primary:active:focus, 
+body .btn-primary:active:hover{
+    border-color: #ef6495;
+    background-color: #ef6495;
+    color: #FFFFFF;
+}
+
+/* ==================== Rodape ==================== */
+footer{
+    background: #ef6495;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+}
+
+/* ================== Tipografia ================== */
+
+
+
+/* ================ Media queries ================= */
+/* xs < 768px */
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+    
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 80px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 100px;
+    }
+}
